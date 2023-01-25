@@ -1,0 +1,151 @@
+* {
+  background-color: #f5f5dc;
+}
+
+img {
+  width: 6%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.return {
+  margin: 50px;
+  transition: 300ms;
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 150%;
+  color: #e38e00;
+}
+
+.return:hover {
+  flex: 3;
+  font-size: 180%;
+}
+
+.next {
+  transition: 300ms;
+  float: right;
+  font-family: "Inter";
+  font-weight: 200;
+  font-size: 100%;
+  color: #e38e00;
+  padding: 55px 0px 0px;
+}
+
+header {
+  text-align: center;
+  border-right: 25px;
+  font-family: "Inter", sans-serif;
+  color: #e38e00;
+  font-weight: 600;
+  font-size: 35px;
+  width: 100%;
+  background-color: #f5f5dc;
+}
+
+section {
+  padding: 50px 0px 0px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  margin: 0px;
+  font-size: 15px;
+  color: #f5f5dc;
+  background-color: #e38e00;
+}
+
+.month {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  font-family: "inter";
+  font-size: 25px;
+  color: #e38e00;
+}
+
+.register {
+  transition: 300ms;
+  float: right;
+  padding: 15px;
+  border-radius: 50px;
+  border: solid #ff8c00;
+  background-color: #ed9121;
+  color: white;
+  font-size: 20px;
+}
+
+.register:hover {
+  flex: 3;
+  padding: 10px;
+  background-color: #ed9121;
+}
+
+form {
+  display: flex;
+
+  padding: 90px;
+}
+
+.habits {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.habit {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  color: #ff8c00;
+
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  gap: 50px;
+  margin-left: 45px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+}
+
+.day div {
+  margin-bottom: 24px;
+  font-family: "Inter";
+  align-items: center;
+  font-size: 15px;
+
+  margin-left: 15px;
+
+  color: #e38e00;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+
+  width: 64px;
+  height: 64px;
+
+  border: 2px solid #ff8c00;
+  border-radius: 16px;
+
+  background-color: #f5f5dc;
+}
+
+/*pseudo selector são os dois pontinhos*/
+:checked {
+  border: 2px solid #ff8c00;
+  background-color: #e38e00;
+}
